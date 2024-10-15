@@ -1,0 +1,22 @@
+#pragma version 9
+txn RekeyTo
+global ZeroAddress
+==
+assert
+txn AssetCloseTo
+global ZeroAddress
+==
+assert
+txn TypeEnum
+pushint 4
+==
+assert
+txn XferAsset
+pushint 723190772
+==
+assert
+txn Fee
+pushint 0
+==
+assert
+pushint 1

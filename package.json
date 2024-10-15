@@ -1,0 +1,24 @@
+{
+  "name": "algokit-transaction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/transaction.js",
+    "dev": "ts-node src/transaction.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@algorandfoundation/algokit-utils": "^7.0.0-beta.8",
+    "algosdk": "^2.7.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.54",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
